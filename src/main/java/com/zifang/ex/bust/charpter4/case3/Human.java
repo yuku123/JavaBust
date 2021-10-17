@@ -4,7 +4,11 @@ class Human{
     String sex;
     String age;
     {
+        int a = 2;
         sex = "sex";
+    }
+    {
+        sex = "dd";
     }
     {
         sex = "dd";
