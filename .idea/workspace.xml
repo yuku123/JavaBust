@@ -5,8 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3dd8052-2389-4ee6-9911-6848c7a2f387" name="Default Changelist" comment="dsds">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter2/ASCII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter2/CharEncoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/ArrayLoop1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/ArrayLoop2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/ControlLoopBreakTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/ControlLoopContinueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/DoWhileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/For1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/For2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/For3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/For4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/ForFor1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/LoopMarkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/WhileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case1/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case2/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case3/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Father1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Father2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Father3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Father4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/p/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +58,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -45,6 +84,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/day001/Day001.java" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/000 Java语言概述.md" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -200,15 +246,16 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="upsource.project.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zifang.ex.bust.charpter4.enumCase" />
       <recent name="com.zifang.ex.bust.charpter2" />
       <recent name="com.zifang.ex.bust.charpter1.case2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CharEncoding">
+  <component name="RunManager" selected="Application.HungryLevelEnum2Test1">
     <configuration name="ASCII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter2.ASCII" />
       <module name="ex-bust" />
@@ -237,13 +284,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter1.case1.HelloWord" />
+    <configuration name="HungryLevelEnum2Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter4.enumCase.HungryLevelEnum2Test1" />
       <module name="ex-bust" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zifang.ex.bust.charpter1.case1.*" />
+          <option name="PATTERN" value="com.zifang.ex.bust.charpter4.enumCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HungryLevelEnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter4.enumCase.HungryLevelEnumTest" />
+      <module name="ex-bust" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zifang.ex.bust.charpter4.enumCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HungryLevelEnumTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter4.enumCase.HungryLevelEnumTest2" />
+      <module name="ex-bust" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zifang.ex.bust.charpter4.enumCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,19 +328,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -288,9 +350,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HungryLevelEnum2Test1" />
+        <item itemvalue="Application.HungryLevelEnumTest2" />
+        <item itemvalue="Application.HungryLevelEnumTest" />
         <item itemvalue="Application.CharEncoding" />
         <item itemvalue="Application.ASCII" />
-        <item itemvalue="Application.HelloWord" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +376,8 @@
       <workItem from="1602815846157" duration="8801000" />
       <workItem from="1630744177410" duration="5179000" />
       <workItem from="1631447544036" duration="3896000" />
+      <workItem from="1635777397849" duration="4999000" />
+      <workItem from="1635920960620" duration="821000" />
     </task>
     <task id="LOCAL-00001" summary="dsds">
       <created>1630828761477</created>
