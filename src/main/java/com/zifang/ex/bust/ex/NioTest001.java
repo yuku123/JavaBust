@@ -45,13 +45,13 @@ public class NioTest001 {
         System.out.println("charBuffer.capacity=" + charBuffer.capacity());
     }
 
-    @Test
-    public void test1(){
-        byte[] byteArray = new byte[] { 1, 2, 3, 4, 5, 6, 7};
-        ByteBuffer bytebuffer = ByteBuffer.wrap(byteArray);
-        // 容量
-        assert bytebuffer.capacity() == 7;
-        assert bytebuffer.limit() == 7;
-        Assert.assertThrows(NullPointerException.class,()->System.out.println("sss"));
-    }
+//    @Test
+//    public void test1(){
+//        byte[] byteArray = new byte[] { 1, 2, 3, 4, 5, 6, 7};
+//        ByteBuffer bytebuffer = ByteBuffer.wrap(byteArray);
+//        // 容量
+//        assert bytebuffer.capacity() == 7;
+//        assert bytebuffer.limit() == 7;
+//        Assert.assertThrows(NullPointerException.class,()->System.out.println("sss"));
+//    }
 }

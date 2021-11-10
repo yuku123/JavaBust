@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3dd8052-2389-4ee6-9911-6848c7a2f387" name="Default Changelist" comment="dsds">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter8/GenericArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter8/Handle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter8/a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/ex/Decompressing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/ex/MyZip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter2/CharEncoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter2/CharEncoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-bust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ex-bust.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/ex/NioTest001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/ex/NioTest001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,13 +215,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zifang.ex.bust.ex" />
       <recent name="com.zifang.ex.bust.charpter8" />
       <recent name="com.zifang.ex.bust.charpter4.enumCase" />
       <recent name="com.zifang.ex.bust.charpter2" />
       <recent name="com.zifang.ex.bust.charpter1.case2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericArray">
+  <component name="RunManager" selected="Application.MyZip">
     <configuration name="GenericArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter8.GenericArray" />
       <module name="ex-bust" />
@@ -277,13 +279,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HungryLevelEnumTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter4.enumCase.HungryLevelEnumTest2" />
+    <configuration name="MyZip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.ex.MyZip" />
       <module name="ex-bust" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zifang.ex.bust.charpter4.enumCase.*" />
+          <option name="PATTERN" value="com.zifang.ex.bust.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,15 +299,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -328,11 +328,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyZip" />
         <item itemvalue="Application.GenericArray" />
         <item itemvalue="Application.Handle2" />
         <item itemvalue="Application.Handle" />
         <item itemvalue="Application.HungryLevelEnum2Test1" />
-        <item itemvalue="Application.HungryLevelEnumTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +355,8 @@
       <workItem from="1630744177410" duration="5179000" />
       <workItem from="1631447544036" duration="3896000" />
       <workItem from="1635777397849" duration="4999000" />
-      <workItem from="1635920960620" duration="7659000" />
+      <workItem from="1635920960620" duration="7745000" />
+      <workItem from="1636442159247" duration="923000" />
     </task>
     <task id="LOCAL-00001" summary="dsds">
       <created>1630828761477</created>
@@ -428,6 +429,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dsds" />
     <option name="LAST_COMMIT_MESSAGE" value="dsds" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/ex/MyZip.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/day001/Sub001.class">
