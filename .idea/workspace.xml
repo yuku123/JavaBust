@@ -5,12 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3dd8052-2389-4ee6-9911-6848c7a2f387" name="Default Changelist" comment="dsds">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/ex/Decompressing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/ex/MyZip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter11/case1/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter11/case1/WriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_in.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-bust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ex-bust.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/ex/NioTest001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/ex/NioTest001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter1/case1/HelloWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter1/case1/HelloWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter1/case2/HelloWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter1/case2/HelloWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter1/case2/HelloWord1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter1/case2/HelloWord1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter2/ASCII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter2/ASCII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter2/CharEncoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter2/CharEncoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/ArrayLoop1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter3/ArrayLoop1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/ArrayLoop2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter3/ArrayLoop2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/ControlLoopBreakTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter3/ControlLoopBreakTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/ControlLoopContinueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter3/ControlLoopContinueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/DoWhileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter3/DoWhileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/For1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter3/For1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/For2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter3/For2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/For3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter3/For3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/For4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter3/For4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/ForFor1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter3/ForFor1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/LoopMarkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter3/LoopMarkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter3/WhileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter3/WhileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case1/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case1/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case2/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case2/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case3/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case3/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Father1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Father1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Father2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Father2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Father3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Father3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Father4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Father4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Human10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Human11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Human12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Human2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Human3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Human4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Human5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Human6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Human7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Human8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Human9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Human9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/case4/p/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/case4/p/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/enumCase/HungryLevelEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/enumCase/HungryLevelEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/enumCase/HungryLevelEnum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/enumCase/HungryLevelEnum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/enumCase/HungryLevelEnum2Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/enumCase/HungryLevelEnum2Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/enumCase/HungryLevelEnum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/enumCase/HungryLevelEnum3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/enumCase/HungryLevelEnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/enumCase/HungryLevelEnumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter4/enumCase/HungryLevelEnumTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter4/enumCase/HungryLevelEnumTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter8/GenericArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter8/GenericArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter8/Handle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter8/Handle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter8/Handle2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter8/Handle2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter8/a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/chapter8/a.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +70,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -204,7 +251,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -214,22 +261,28 @@
     <property name="settings.editor.selected.configurable" value="upsource.project.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zifang.ex.bust.chapter11.case1" />
       <recent name="com.zifang.ex.bust.ex" />
       <recent name="com.zifang.ex.bust.charpter8" />
       <recent name="com.zifang.ex.bust.charpter4.enumCase" />
       <recent name="com.zifang.ex.bust.charpter2" />
-      <recent name="com.zifang.ex.bust.charpter1.case2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyZip">
+  <component name="RunManager" selected="Application.ReadFile001">
     <configuration name="GenericArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter8.GenericArray" />
+      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.chapter8.GenericArray" />
       <module name="ex-bust" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zifang.ex.bust.charpter8.*" />
+          <option name="PATTERN" value="com.zifang.ex.bust.chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,12 +291,12 @@
       </method>
     </configuration>
     <configuration name="Handle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter8.Handle" />
+      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.chapter8.Handle" />
       <module name="ex-bust" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zifang.ex.bust.charpter8.*" />
+          <option name="PATTERN" value="com.zifang.ex.bust.chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,26 +305,12 @@
       </method>
     </configuration>
     <configuration name="Handle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter8.Handle2" />
+      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.chapter8.Handle2" />
       <module name="ex-bust" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zifang.ex.bust.charpter8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HungryLevelEnum2Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter4.enumCase.HungryLevelEnum2Test1" />
-      <module name="ex-bust" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zifang.ex.bust.charpter4.enumCase.*" />
+          <option name="PATTERN" value="com.zifang.ex.bust.chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,6 +325,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zifang.ex.bust.ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.chapter11.case1.ReadFile" />
+      <module name="ex-bust" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zifang.ex.bust.chapter11.case1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,11 +381,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFile001" />
         <item itemvalue="Application.MyZip" />
         <item itemvalue="Application.GenericArray" />
         <item itemvalue="Application.Handle2" />
         <item itemvalue="Application.Handle" />
-        <item itemvalue="Application.HungryLevelEnum2Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -357,6 +410,9 @@
       <workItem from="1635777397849" duration="4999000" />
       <workItem from="1635920960620" duration="7745000" />
       <workItem from="1636442159247" duration="923000" />
+      <workItem from="1636510824489" duration="109000" />
+      <workItem from="1636905251554" duration="1425000" />
+      <workItem from="1637051030281" duration="3440000" />
     </task>
     <task id="LOCAL-00001" summary="dsds">
       <created>1630828761477</created>
