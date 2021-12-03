@@ -3,8 +3,13 @@ package com.zifang.ex.bust.charpter12;
 import org.junit.Test;
 
 import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.net.SocketException;
 import java.net.UnknownHostException;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Enumeration;
+import java.util.List;
 
 public class InetAddressTest {
 
@@ -51,5 +56,16 @@ public class InetAddressTest {
         System.out.println("inetAddress.isMCLinkLocal()        "+inetAddress.isMCLinkLocal());//子网范围内组播网址
         System.out.println("inetAddress.isMCNodeLocal()        "+inetAddress.isMCNodeLocal());//本地接口组播地址
         System.out.println("----------------------------");
+    }
+
+    @Test
+    public void test4() throws SocketException {
+        Enumeration<NetworkInterface> networkInterface = NetworkInterface.getNetworkInterfaces();
+
+        List<NetworkInterface> networkInterfaceList = new ArrayList<>();
+        while (networkInterface.hasMoreElements()){
+            networkInterfaceList.add(networkInterface.nextElement());
+        }
+        System.out.println();
     }
 }
