@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3dd8052-2389-4ee6-9911-6848c7a2f387" name="Default Changelist" comment="dsds">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/ex/BatchModify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter12/InetAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter12/InetAddressTest.java" afterDir="false" />
+>>>>>>> 9017ab0ee81e9224713153e270a76c318f3dfcfe
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="SHOW_DIALOG" value="false" />
@@ -267,6 +272,7 @@
       <recent name="com.zifang.ex.bust.charpter2" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -283,65 +289,126 @@
     <configuration name="BatchModify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.ex.BatchModify" />
       <module name="JavaBust" />
+=======
+  <component name="RunManager" selected="JUnit.InetAddressTest.test4">
+    <configuration default="true" type="Application" factoryName="Application">
+>>>>>>> 9017ab0ee81e9224713153e270a76c318f3dfcfe
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zifang.ex.bust.ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InetAddressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex-bust" />
+      <extension name="coverage">
+        <pattern>
+<<<<<<< HEAD
+          <option name="PATTERN" value="com.zifang.ex.bust.ex.*" />
+=======
+          <option name="PATTERN" value="com.zifang.ex.bust.charpter12.*" />
+>>>>>>> 9017ab0ee81e9224713153e270a76c318f3dfcfe
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zifang.ex.bust.charpter12" />
+      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter12.InetAddressTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
     <configuration name="GenericArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.chapter8.GenericArray" />
+=======
+    <configuration name="InetAddressTest.test001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 9017ab0ee81e9224713153e270a76c318f3dfcfe
       <module name="ex-bust" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zifang.ex.bust.chapter8.*" />
+          <option name="PATTERN" value="com.zifang.ex.bust.charpter12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zifang.ex.bust.charpter12" />
+      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter12.InetAddressTest" />
+      <option name="METHOD_NAME" value="test001" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Handle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.chapter8.Handle" />
+=======
+    <configuration name="InetAddressTest.test002" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 9017ab0ee81e9224713153e270a76c318f3dfcfe
       <module name="ex-bust" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zifang.ex.bust.chapter8.*" />
+          <option name="PATTERN" value="com.zifang.ex.bust.charpter12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zifang.ex.bust.charpter12" />
+      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter12.InetAddressTest" />
+      <option name="METHOD_NAME" value="test002" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Handle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.chapter8.Handle2" />
+=======
+    <configuration name="InetAddressTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 9017ab0ee81e9224713153e270a76c318f3dfcfe
       <module name="ex-bust" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
+<<<<<<< HEAD
           <option name="PATTERN" value="com.zifang.ex.bust.chapter8.*" />
+=======
+          <option name="PATTERN" value="com.zifang.ex.bust.charpter12.*" />
+>>>>>>> 9017ab0ee81e9224713153e270a76c318f3dfcfe
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zifang.ex.bust.charpter12" />
+      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter12.InetAddressTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="MyZip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.ex.MyZip" />
+=======
+    <configuration name="InetAddressTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 9017ab0ee81e9224713153e270a76c318f3dfcfe
       <module name="ex-bust" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
+<<<<<<< HEAD
           <option name="PATTERN" value="com.zifang.ex.bust.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
@@ -352,6 +419,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+=======
+          <option name="PATTERN" value="com.zifang.ex.bust.charpter12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zifang.ex.bust.charpter12" />
+      <option name="MAIN_CLASS_NAME" value="com.zifang.ex.bust.charpter12.InetAddressTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+>>>>>>> 9017ab0ee81e9224713153e270a76c318f3dfcfe
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -374,11 +452,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.BatchModify" />
         <item itemvalue="Application.MyZip" />
         <item itemvalue="Application.GenericArray" />
         <item itemvalue="Application.Handle2" />
         <item itemvalue="Application.Handle" />
+=======
+        <item itemvalue="JUnit.InetAddressTest.test4" />
+        <item itemvalue="JUnit.InetAddressTest.test3" />
+        <item itemvalue="JUnit.InetAddressTest" />
+        <item itemvalue="JUnit.InetAddressTest.test002" />
+        <item itemvalue="JUnit.InetAddressTest.test001" />
+>>>>>>> 9017ab0ee81e9224713153e270a76c318f3dfcfe
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +491,11 @@
       <workItem from="1636442159247" duration="923000" />
       <workItem from="1636510824489" duration="109000" />
       <workItem from="1636905251554" duration="1425000" />
-      <workItem from="1637051030281" duration="3440000" />
+      <workItem from="1637051030281" duration="4411000" />
+      <workItem from="1637547767406" duration="902000" />
+      <workItem from="1638021356661" duration="5572000" />
+      <workItem from="1638198509276" duration="545000" />
+      <workItem from="1638455539611" duration="4391000" />
     </task>
     <task id="LOCAL-00001" summary="dsds">
       <created>1630828761477</created>
@@ -507,6 +597,11 @@
           <line>17</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter12/InetAddressTest.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
