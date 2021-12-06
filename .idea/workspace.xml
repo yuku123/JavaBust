@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3dd8052-2389-4ee6-9911-6848c7a2f387" name="Default Changelist" comment="dsds">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/ex/SerializableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter12/InetAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zifang/ex/bust/charpter12/InetAddressTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -380,7 +380,7 @@
       <workItem from="1637547767406" duration="902000" />
       <workItem from="1638021356661" duration="5572000" />
       <workItem from="1638198509276" duration="545000" />
-      <workItem from="1638455539611" duration="4391000" />
+      <workItem from="1638455539611" duration="6636000" />
     </task>
     <task id="LOCAL-00001" summary="dsds">
       <created>1630828761477</created>
