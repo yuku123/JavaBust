@@ -61,11 +61,9 @@ public class InetAddressTest {
     @Test
     public void test4() throws SocketException {
         Enumeration<NetworkInterface> networkInterface = NetworkInterface.getNetworkInterfaces();
-
         List<NetworkInterface> networkInterfaceList = new ArrayList<>();
         while (networkInterface.hasMoreElements()){
             networkInterfaceList.add(networkInterface.nextElement());
         }
-        System.out.println();
     }
 }
