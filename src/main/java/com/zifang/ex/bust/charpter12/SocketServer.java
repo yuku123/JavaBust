@@ -13,8 +13,8 @@ public class SocketServer {
 //        server.bind(new InetSocketAddress());
 //        server.setReceiveBufferSize();
 //        server.setReuseAddress();
-        server.isBound();
-        server.isClosed();
+//        server.isBound();
+//        server.isClosed();
         // accept方法将会阻塞当前进程，知道连接真的到了
         Socket socket = server.accept();
         // 建立好连接后，从socket中获取输入流，并建立缓冲区进行读取
