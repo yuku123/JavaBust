@@ -68,30 +68,6 @@ public class URLTest {
                 }
             }).start();
         }
-        // 关闭监听
-        // server.close();
-
-        // 建立好连接后，从socket中获取输入流，并建立缓冲区进行读取
-
-
-
-//        new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                try {
-//                    byte[] bytes = new byte[1024];
-//                    int len;
-//                    while ((len = inputStream.read(bytes)) != -1) {
-//                        System.out.print(new String(bytes, 0, len,"UTF-8"));
-//                    }
-//                }catch (Exception e){
-//                    e.printStackTrace();
-//                }
-//            }
-//        }).start();
-
-
-
     }
 
     public static void printMessageFromInputStream(InputStream inputStream) throws IOException {
@@ -102,11 +78,16 @@ public class URLTest {
         }
     }
     public static void writeOutStream(OutputStream outputStream) throws IOException {
+
+        String content = "HTTP/1.1 200 OK\r\n" +
+                "content-Type: application/json\r\n"+
+                "Server: Apache\r\n" +
+                "\r\n" +
+                "{\"a\":\"吃饭\"}";
         int i = 0 ;
-       while (true){
-           outputStream.write(("hello"+i).getBytes());
-           outputStream.flush();
-       }
+        outputStream.write(content.getBytes());
+        outputStream.flush();
+        outputStream.close();
     }
 
     @Test
@@ -116,6 +97,7 @@ public class URLTest {
             URLConnection connection = url.openConnection();
             //connection.setDoOutput(true);
 
+            System.out.println("content: " + connection.getContent());
             System.out.println("Content-Type: " + connection.getContentType());
             System.out.println("Content-Length: " + connection.getContentLength());
             System.out.println("Content-LengthLong: " + connection.getContentLengthLong());
@@ -123,8 +105,35 @@ public class URLTest {
             System.out.println("Date: " + connection.getDate());
             System.out.println("Expires: " + connection.getExpiration());
             System.out.println("Last-modified: " + connection.getLastModified());
+
+            InputStream inputStream = connection.getInputStream();
+            byte[] b = new byte[inputStream.available()];
+            inputStream.read(b);
+            System.out.println(new String(b));
         } catch (IOException e) {
 
         }
     }
+
+    @Test
+    public void test4() throws IOException {
+        URL url = new URL("http://www.baidu.com");
+        URLConnection connection = url.openConnection();
+
+        // 获得响应头
+        System.out.println("Content-Type: " + connection.getContentType());
+        System.out.println("Content-Length: " + connection.getContentLength());
+        System.out.println("Content-LengthLong: " + connection.getContentLengthLong());
+        System.out.println("Content-encoding: " + connection.getContentEncoding());
+        System.out.println("Date: " + connection.getDate());
+        System.out.println("Expires: " + connection.getExpiration());
+        System.out.println("Last-modified: " + connection.getLastModified());
+
+        InputStream inputStream = connection.getInputStream();
+        byte[] b = new byte[inputStream.available()];
+        inputStream.read(b);
+        System.out.println(new String(b));
+    }
+
+
 }
