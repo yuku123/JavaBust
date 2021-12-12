@@ -13,6 +13,9 @@ import java.nio.ByteBuffer;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 
+/**
+ * @author zifang
+ */
 public class NioChannelTest003 {
 
     public static String host = "127.0.0.1";

@@ -11,15 +11,17 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.channels.ServerSocketChannel;
 
-public class NioChannelTest002 {
+/**
+ * @author zifang
+ */
+public class NioChannelTest000 {
 
     public static String host = "127.0.0.1";
     private static int port = 50000;
     @Test
     public void server() throws IOException {
-        ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
-        serverSocketChannel.bind(new InetSocketAddress(host,port));
-        ServerSocket serverSocket = serverSocketChannel.socket();
+        ServerSocket serverSocket = new ServerSocket();
+        serverSocket.bind(new InetSocketAddress(host,port));
         Socket socket = serverSocket.accept();
         InputStream inputStream = socket.getInputStream();
         InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
@@ -34,7 +36,6 @@ public class NioChannelTest002 {
         inputStream.close();
         socket.close();
         serverSocket.close();
-        serverSocketChannel.close();
     }
     @Test
     public void client() throws IOException {
@@ -43,12 +44,11 @@ public class NioChannelTest002 {
         // 建立连接后获得输出流
         OutputStream outputStream = socket.getOutputStream();
         // 往输出流内写入数据
-        outputStream.write("HelloWorld\n".getBytes("UTF-8"));
-        outputStream.write("HelloWorld\n".getBytes("UTF-8"));
+        outputStream.write("HelloWorld".getBytes("UTF-8"));
+        outputStream.write("HelloWorld".getBytes("UTF-8"));
         // 关闭输出流
         outputStream.close();
         // 关闭连接
         socket.close();
     }
-
 }

@@ -8,6 +8,7 @@ import java.io.OutputStream;
 import java.net.*;
 
 public class URLTest {
+
     @Test
     public void test0() throws URISyntaxException, IOException {
         URL url = new URL("http://aa:123@localhost:8080/search?name=doge#anchor-1");

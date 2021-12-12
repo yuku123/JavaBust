@@ -7,26 +7,21 @@ import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.nio.ByteBuffer;
-import java.nio.channels.SelectionKey;
-import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 
+/**
+ * @author zifang
+ */
 public class NioChannelTest004 {
 
     public static String host = "127.0.0.1";
     private static int port = 50000;
     @Test
     public void server() throws IOException {
-        Selector selector = Selector.open();
-
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
         serverSocketChannel.bind(new InetSocketAddress(host,port));
         serverSocketChannel.configureBlocking(false);
-        SelectionKey selectionKey = serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
-
-
-
         SocketChannel socketChannel = serverSocketChannel.accept();
         ByteBuffer buteBuffer = ByteBuffer.allocate(10);
         int readLength = socketChannel.read(buteBuffer);
@@ -53,6 +48,4 @@ public class NioChannelTest004 {
         // 关闭连接
         socket.close();
     }
-
-
 }
