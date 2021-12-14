@@ -1,10 +1,11 @@
 package com.zifang.ex.bust.charpter12;
 
 /**
- * 解决原子性问题
+ * 解决原子性问题，保留可见性
  * */
-public class Test {
+public class TestSolveView {
     private static long count = 0;
+
     private void add10K() {
         int idx = 0;
         while(idx++ < 10000) {
@@ -12,7 +13,7 @@ public class Test {
         }
     }
     public static long calc() throws InterruptedException {
-        Test test = new Test();
+        TestSolveView test = new TestSolveView();
         // 创建两个线程，执行add()操作
         Thread th1 = new Thread(()->{
             test.add10K();
