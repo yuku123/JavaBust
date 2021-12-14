@@ -1,4 +1,4 @@
-package com.zifang.ex.bust.charpter12;
+package com.zifang.ex.bust.charpter13;
 
 import org.junit.Test;
 
@@ -9,14 +9,9 @@ import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.ByteBuffer;
 import java.nio.channels.ServerSocketChannel;
-import java.nio.channels.SocketChannel;
 
-/**
- * @author zifang
- */
-public class NioChannelTest003 {
+public class NioChannelTest002 {
 
     public static String host = "127.0.0.1";
     private static int port = 50000;
@@ -24,17 +19,21 @@ public class NioChannelTest003 {
     public void server() throws IOException {
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
         serverSocketChannel.bind(new InetSocketAddress(host,port));
-        //serverSocketChannel.configureBlocking(false);
-        SocketChannel socketChannel = serverSocketChannel.accept();
-        ByteBuffer buteBuffer = ByteBuffer.allocate(10);
-        int readLength = socketChannel.read(buteBuffer);
-        while (readLength != -1) {
-            String newString = new String(buteBuffer.array());
+        ServerSocket serverSocket = serverSocketChannel.socket();
+        Socket socket = serverSocket.accept();
+        InputStream inputStream = socket.getInputStream();
+        InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+        char[] charArray = new char[1024];
+        int readLength = inputStreamReader.read(charArray);
+        while (readLength != -1){
+            String newString = new String(charArray, 0, readLength);
             System.out.println(newString);
-            buteBuffer.flip();
-            readLength = socketChannel.read(buteBuffer);
+            readLength = inputStreamReader.read(charArray);
         }
-        socketChannel.close();
+        inputStreamReader.close();
+        inputStream.close();
+        socket.close();
+        serverSocket.close();
         serverSocketChannel.close();
     }
     @Test
@@ -51,6 +50,5 @@ public class NioChannelTest003 {
         // 关闭连接
         socket.close();
     }
-
 
 }

@@ -1,4 +1,4 @@
-package com.zifang.ex.bust.charpter12;
+package com.zifang.ex.bust.charpter13;
 
 import org.junit.Test;
 
@@ -9,7 +9,6 @@ import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.channels.ServerSocketChannel;
 
 /**
  * @author zifang

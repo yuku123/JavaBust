@@ -1,4 +1,4 @@
-package com.zifang.ex.bust.charpter12;
+package com.zifang.ex.bust.charpter13;
 
 import org.junit.Test;
 
@@ -16,6 +16,16 @@ public class NioChannelTest005 {
 
     public static String host = "127.0.0.1";
     private static int port = 50000;
+
+
+    @Test
+    public void serverTest001() throws IOException {
+        Selector selector = Selector.open();
+        ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
+        serverSocketChannel.bind(new InetSocketAddress(host,port));
+        serverSocketChannel.configureBlocking(false);
+        SelectionKey selectionKey = serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
+    }
     @Test
     public void server() throws IOException {
         Selector selector = Selector.open();
@@ -23,9 +33,8 @@ public class NioChannelTest005 {
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
         serverSocketChannel.bind(new InetSocketAddress(host,port));
         serverSocketChannel.configureBlocking(false);
+
         SelectionKey selectionKey = serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
-
-
 
         SocketChannel socketChannel = serverSocketChannel.accept();
         ByteBuffer buteBuffer = ByteBuffer.allocate(10);
