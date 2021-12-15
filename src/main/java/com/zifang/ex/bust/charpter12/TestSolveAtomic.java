@@ -16,6 +16,7 @@ public class TestSolveAtomic {
     public long count = 0;
 
     private static long valueOffset;
+
     private static Unsafe unsafe;
     static {
         try {
@@ -31,14 +32,14 @@ public class TestSolveAtomic {
     private void add10K() {
         int idx = 0;
         while(idx++ < 10000) {
-            while (!compareAndSet(this, count,count+1)){
+            while (!unsafe.compareAndSwapLong(this,valueOffset ,count,count+1)){
                 continue;
             }
             //count += 1;
         }
     }
 
-    public static boolean compareAndSet(Object o, long expect, long update) {
+    public boolean compareAndSet(Object o, long expect, long update) {
         return unsafe.compareAndSwapLong(o, valueOffset, expect, update);
     }
 
@@ -57,5 +58,6 @@ public class TestSolveAtomic {
         th1.join();
         th2.join();
         System.out.println(test.count);
+
     }
 }
