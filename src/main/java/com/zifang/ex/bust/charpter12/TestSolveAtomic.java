@@ -3,7 +3,6 @@ package com.zifang.ex.bust.charpter12;
 import sun.misc.Unsafe;
 
 import java.lang.reflect.Field;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 解决原子性问题，保留可见性
@@ -39,10 +38,6 @@ public class TestSolveAtomic {
         }
     }
 
-    public boolean compareAndSet(Object o, long expect, long update) {
-        return unsafe.compareAndSwapLong(o, valueOffset, expect, update);
-    }
-
     public static void main(String[] args) throws InterruptedException {
         TestSolveAtomic test = new TestSolveAtomic();
         Thread th1 = new Thread(()->{
@@ -58,6 +53,5 @@ public class TestSolveAtomic {
         th1.join();
         th2.join();
         System.out.println(test.count);
-
     }
 }
