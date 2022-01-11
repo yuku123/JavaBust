@@ -4,12 +4,12 @@ package com.zifang.ex.bust.charpter12;
  * 解决原子性问题，保留可见性
  * */
 public class TestSolveView {
-    private static long count = 0;
+    private static int count = 0;
 
     private void add10K() {
         int idx = 0;
         while(idx++ < 10000) {
-            count += 1;
+            count++;
         }
     }
     public static long calc() throws InterruptedException {
